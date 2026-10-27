@@ -67,3 +67,21 @@
     .container-inline .item {
         display: inline-block;
     }
+
+    .container-inline-block .item {
+        display: inline-block;
+        padding: 0.5rem;
+        width: 5rem;
+    }
+
+    .container-flex {
+        display: flex;
+        background-color: #f5f5f5;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .container-flex .item {
+        flex: 1;
+        padding: 0.5rem;
+    }
